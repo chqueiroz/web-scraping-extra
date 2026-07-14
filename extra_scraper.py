@@ -45,7 +45,7 @@ lista = [
     "carne acem",
     "batata inglesa",
     "tomate italiano",
-    "pao frances costa lavos",
+    "pao frances",
     "banana nanica"
 ]
 
@@ -103,7 +103,7 @@ for item in lista:
     tentativas = 0
 
     # Se não foram carregados todos os produtos, scrolla a página até o final
-    while tentativas < 10:
+    while tentativas < 5:
 
         qtd_ant = len(produtos)
 
